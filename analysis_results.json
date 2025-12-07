@@ -1,0 +1,1931 @@
+{
+  "corpus_info": {
+    "name": "Utopian Novels Corpus",
+    "description": "A collection of utopian novels from Project Gutenberg (1516-1915)",
+    "text_count": 7,
+    "total_tokens": 442885
+  },
+  "topic_modeling": {
+    "n_topics": 4,
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          [
+            "even",
+            135.2497
+          ],
+          [
+            "machines",
+            83.4029
+          ],
+          [
+            "money",
+            75.3709
+          ],
+          [
+            "king",
+            72.7695
+          ],
+          [
+            "labour",
+            52.6226
+          ],
+          [
+            "often",
+            52.2711
+          ],
+          [
+            "mind",
+            48.5799
+          ],
+          [
+            "felt",
+            47.3718
+          ],
+          [
+            "prince",
+            47.1894
+          ],
+          [
+            "best",
+            44.4094
+          ]
+        ]
+      },
+      {
+        "id": 1,
+        "words": [
+          [
+            "even",
+            178.9354
+          ],
+          [
+            "got",
+            177.7375
+          ],
+          [
+            "quite",
+            169.2545
+          ],
+          [
+            "yes",
+            146.5337
+          ],
+          [
+            "river",
+            118.8952
+          ],
+          [
+            "something",
+            117.4966
+          ],
+          [
+            "pretty",
+            116.5866
+          ],
+          [
+            "really",
+            95.9613
+          ],
+          [
+            "best",
+            93.1776
+          ],
+          [
+            "mean",
+            91.3594
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          [
+            "utopia",
+            309.2509
+          ],
+          [
+            "utopian",
+            189.2512
+          ],
+          [
+            "even",
+            175.012
+          ],
+          [
+            "common",
+            119.5758
+          ],
+          [
+            "mind",
+            116.9466
+          ],
+          [
+            "quite",
+            109.4989
+          ],
+          [
+            "botanist",
+            99.2482
+          ],
+          [
+            "race",
+            92.1497
+          ],
+          [
+            "something",
+            88.342
+          ],
+          [
+            "idea",
+            88.2773
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          [
+            "dr",
+            162.2554
+          ],
+          [
+            "nation",
+            150.7794
+          ],
+          [
+            "replied",
+            143.9958
+          ],
+          [
+            "system",
+            133.1257
+          ],
+          [
+            "century",
+            120.393
+          ],
+          [
+            "even",
+            117.8029
+          ],
+          [
+            "labor",
+            91.2421
+          ],
+          [
+            "fact",
+            73.8367
+          ],
+          [
+            "industrial",
+            71.2502
+          ],
+          [
+            "social",
+            67.4926
+          ]
+        ]
+      }
+    ]
+  },
+  "texts": [
+    {
+      "filename": "Herland.txt",
+      "metadata": {
+        "title": "Herland",
+        "author": "Charlotte Perkins Gilman",
+        "year": 1915
+      },
+      "word_frequencies": [
+        {
+          "word": "terry",
+          "count": 270
+        },
+        {
+          "word": "one",
+          "count": 213
+        },
+        {
+          "word": "women",
+          "count": 204
+        },
+        {
+          "word": "said",
+          "count": 170
+        },
+        {
+          "word": "jeff",
+          "count": 160
+        },
+        {
+          "word": "like",
+          "count": 153
+        },
+        {
+          "word": "could",
+          "count": 149
+        },
+        {
+          "word": "see",
+          "count": 133
+        },
+        {
+          "word": "country",
+          "count": 128
+        },
+        {
+          "word": "would",
+          "count": 115
+        },
+        {
+          "word": "little",
+          "count": 109
+        },
+        {
+          "word": "much",
+          "count": 101
+        },
+        {
+          "word": "first",
+          "count": 94
+        },
+        {
+          "word": "course",
+          "count": 93
+        },
+        {
+          "word": "men",
+          "count": 92
+        },
+        {
+          "word": "children",
+          "count": 92
+        },
+        {
+          "word": "made",
+          "count": 88
+        },
+        {
+          "word": "know",
+          "count": 84
+        },
+        {
+          "word": "never",
+          "count": 82
+        },
+        {
+          "word": "even",
+          "count": 82
+        },
+        {
+          "word": "well",
+          "count": 80
+        },
+        {
+          "word": "quite",
+          "count": 79
+        },
+        {
+          "word": "long",
+          "count": 78
+        },
+        {
+          "word": "good",
+          "count": 77
+        },
+        {
+          "word": "love",
+          "count": 76
+        },
+        {
+          "word": "people",
+          "count": 73
+        },
+        {
+          "word": "life",
+          "count": 72
+        },
+        {
+          "word": "man",
+          "count": 72
+        },
+        {
+          "word": "always",
+          "count": 71
+        },
+        {
+          "word": "great",
+          "count": 70
+        },
+        {
+          "word": "time",
+          "count": 70
+        },
+        {
+          "word": "thought",
+          "count": 69
+        },
+        {
+          "word": "found",
+          "count": 68
+        },
+        {
+          "word": "get",
+          "count": 66
+        },
+        {
+          "word": "ellador",
+          "count": 66
+        },
+        {
+          "word": "work",
+          "count": 62
+        },
+        {
+          "word": "back",
+          "count": 61
+        },
+        {
+          "word": "far",
+          "count": 60
+        },
+        {
+          "word": "way",
+          "count": 59
+        },
+        {
+          "word": "things",
+          "count": 59
+        },
+        {
+          "word": "seemed",
+          "count": 59
+        },
+        {
+          "word": "rather",
+          "count": 59
+        },
+        {
+          "word": "got",
+          "count": 58
+        },
+        {
+          "word": "two",
+          "count": 58
+        },
+        {
+          "word": "three",
+          "count": 57
+        },
+        {
+          "word": "many",
+          "count": 57
+        },
+        {
+          "word": "think",
+          "count": 57
+        },
+        {
+          "word": "enough",
+          "count": 56
+        },
+        {
+          "word": "thing",
+          "count": 54
+        },
+        {
+          "word": "among",
+          "count": 54
+        }
+      ],
+      "sentiment": {
+        "compound": 0.1797,
+        "positive": 0.1187,
+        "negative": 0.0553,
+        "neutral": 0.826,
+        "sentence_count": 2741,
+        "distribution": {
+          "positive": 1328,
+          "negative": 548,
+          "neutral": 865
+        }
+      },
+      "style_metrics": {
+        "type_token_ratio": 0.1082,
+        "vocabulary_size": 5739,
+        "total_tokens": 53035,
+        "hapax_legomena": 2891,
+        "hapax_ratio": 0.5037,
+        "yules_k": 81.4831,
+        "sentence_stats": {
+          "count": 2741,
+          "mean_length": 23.76,
+          "median_length": 21.0,
+          "std_length": 15.04,
+          "min_length": 2,
+          "max_length": 122
+        },
+        "word_stats": {
+          "mean_length": 4.25,
+          "median_length": 4.0
+        }
+      },
+      "topic_distribution": [
+        0.0261,
+        0.772,
+        0.1568,
+        0.045
+      ]
+    },
+    {
+      "filename": "LookingBackward.txt",
+      "metadata": {
+        "title": "Looking Backward: 2000-1887",
+        "author": "Edward Bellamy",
+        "year": 1888
+      },
+      "word_frequencies": [
+        {
+          "word": "one",
+          "count": 315
+        },
+        {
+          "word": "would",
+          "count": 274
+        },
+        {
+          "word": "said",
+          "count": 226
+        },
+        {
+          "word": "men",
+          "count": 208
+        },
+        {
+          "word": "could",
+          "count": 192
+        },
+        {
+          "word": "leete",
+          "count": 185
+        },
+        {
+          "word": "day",
+          "count": 171
+        },
+        {
+          "word": "time",
+          "count": 162
+        },
+        {
+          "word": "must",
+          "count": 161
+        },
+        {
+          "word": "man",
+          "count": 150
+        },
+        {
+          "word": "nation",
+          "count": 143
+        },
+        {
+          "word": "replied",
+          "count": 135
+        },
+        {
+          "word": "great",
+          "count": 134
+        },
+        {
+          "word": "system",
+          "count": 131
+        },
+        {
+          "word": "century",
+          "count": 119
+        },
+        {
+          "word": "course",
+          "count": 116
+        },
+        {
+          "word": "edith",
+          "count": 116
+        },
+        {
+          "word": "even",
+          "count": 114
+        },
+        {
+          "word": "like",
+          "count": 105
+        },
+        {
+          "word": "well",
+          "count": 104
+        },
+        {
+          "word": "every",
+          "count": 101
+        },
+        {
+          "word": "first",
+          "count": 100
+        },
+        {
+          "word": "much",
+          "count": 99
+        },
+        {
+          "word": "upon",
+          "count": 98
+        },
+        {
+          "word": "life",
+          "count": 92
+        },
+        {
+          "word": "way",
+          "count": 91
+        },
+        {
+          "word": "world",
+          "count": 88
+        },
+        {
+          "word": "might",
+          "count": 88
+        },
+        {
+          "word": "know",
+          "count": 87
+        },
+        {
+          "word": "labor",
+          "count": 87
+        },
+        {
+          "word": "people",
+          "count": 87
+        },
+        {
+          "word": "may",
+          "count": 86
+        },
+        {
+          "word": "think",
+          "count": 83
+        },
+        {
+          "word": "see",
+          "count": 83
+        },
+        {
+          "word": "service",
+          "count": 79
+        },
+        {
+          "word": "never",
+          "count": 78
+        },
+        {
+          "word": "society",
+          "count": 72
+        },
+        {
+          "word": "fact",
+          "count": 72
+        },
+        {
+          "word": "general",
+          "count": 72
+        },
+        {
+          "word": "another",
+          "count": 72
+        },
+        {
+          "word": "industrial",
+          "count": 71
+        },
+        {
+          "word": "made",
+          "count": 70
+        },
+        {
+          "word": "work",
+          "count": 70
+        },
+        {
+          "word": "women",
+          "count": 69
+        },
+        {
+          "word": "business",
+          "count": 68
+        },
+        {
+          "word": "indeed",
+          "count": 67
+        },
+        {
+          "word": "little",
+          "count": 66
+        },
+        {
+          "word": "nineteenth",
+          "count": 65
+        },
+        {
+          "word": "nothing",
+          "count": 65
+        },
+        {
+          "word": "years",
+          "count": 65
+        }
+      ],
+      "sentiment": {
+        "compound": 0.1336,
+        "positive": 0.1014,
+        "negative": 0.0584,
+        "neutral": 0.8401,
+        "sentence_count": 3226,
+        "distribution": {
+          "positive": 1478,
+          "negative": 769,
+          "neutral": 979
+        }
+      },
+      "style_metrics": {
+        "type_token_ratio": 0.0955,
+        "vocabulary_size": 7386,
+        "total_tokens": 77347,
+        "hapax_legomena": 3412,
+        "hapax_ratio": 0.462,
+        "yules_k": 112.3088,
+        "sentence_stats": {
+          "count": 3226,
+          "mean_length": 27.82,
+          "median_length": 25.0,
+          "std_length": 17.32,
+          "min_length": 2,
+          "max_length": 124
+        },
+        "word_stats": {
+          "mean_length": 4.45,
+          "median_length": 4.0
+        }
+      },
+      "topic_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.9999
+      ]
+    },
+    {
+      "filename": "ModernUtopia.txt",
+      "metadata": {
+        "title": "A Modern Utopia",
+        "author": "H.G. Wells",
+        "year": 1905
+      },
+      "word_frequencies": [
+        {
+          "word": "one",
+          "count": 366
+        },
+        {
+          "word": "world",
+          "count": 334
+        },
+        {
+          "word": "utopia",
+          "count": 309
+        },
+        {
+          "word": "man",
+          "count": 285
+        },
+        {
+          "word": "would",
+          "count": 275
+        },
+        {
+          "word": "may",
+          "count": 254
+        },
+        {
+          "word": "men",
+          "count": 247
+        },
+        {
+          "word": "upon",
+          "count": 235
+        },
+        {
+          "word": "state",
+          "count": 213
+        },
+        {
+          "word": "must",
+          "count": 202
+        },
+        {
+          "word": "little",
+          "count": 196
+        },
+        {
+          "word": "utopian",
+          "count": 188
+        },
+        {
+          "word": "people",
+          "count": 168
+        },
+        {
+          "word": "things",
+          "count": 163
+        },
+        {
+          "word": "great",
+          "count": 155
+        },
+        {
+          "word": "life",
+          "count": 149
+        },
+        {
+          "word": "modern",
+          "count": 143
+        },
+        {
+          "word": "come",
+          "count": 130
+        },
+        {
+          "word": "say",
+          "count": 125
+        },
+        {
+          "word": "every",
+          "count": 124
+        },
+        {
+          "word": "like",
+          "count": 121
+        },
+        {
+          "word": "first",
+          "count": 117
+        },
+        {
+          "word": "even",
+          "count": 113
+        },
+        {
+          "word": "sort",
+          "count": 111
+        },
+        {
+          "word": "see",
+          "count": 107
+        },
+        {
+          "word": "two",
+          "count": 106
+        },
+        {
+          "word": "thing",
+          "count": 105
+        },
+        {
+          "word": "time",
+          "count": 105
+        },
+        {
+          "word": "think",
+          "count": 104
+        },
+        {
+          "word": "much",
+          "count": 99
+        },
+        {
+          "word": "women",
+          "count": 99
+        },
+        {
+          "word": "earth",
+          "count": 98
+        },
+        {
+          "word": "botanist",
+          "count": 97
+        },
+        {
+          "word": "mind",
+          "count": 94
+        },
+        {
+          "word": "still",
+          "count": 94
+        },
+        {
+          "word": "samurai",
+          "count": 94
+        },
+        {
+          "word": "good",
+          "count": 93
+        },
+        {
+          "word": "work",
+          "count": 92
+        },
+        {
+          "word": "certain",
+          "count": 90
+        },
+        {
+          "word": "know",
+          "count": 90
+        },
+        {
+          "word": "make",
+          "count": 88
+        },
+        {
+          "word": "common",
+          "count": 87
+        },
+        {
+          "word": "way",
+          "count": 86
+        },
+        {
+          "word": "find",
+          "count": 86
+        },
+        {
+          "word": "indeed",
+          "count": 86
+        },
+        {
+          "word": "human",
+          "count": 84
+        },
+        {
+          "word": "many",
+          "count": 81
+        },
+        {
+          "word": "whole",
+          "count": 81
+        },
+        {
+          "word": "thought",
+          "count": 80
+        },
+        {
+          "word": "shall",
+          "count": 79
+        }
+      ],
+      "sentiment": {
+        "compound": 0.1168,
+        "positive": 0.0934,
+        "negative": 0.0596,
+        "neutral": 0.847,
+        "sentence_count": 3939,
+        "distribution": {
+          "positive": 1661,
+          "negative": 929,
+          "neutral": 1349
+        }
+      },
+      "style_metrics": {
+        "type_token_ratio": 0.1057,
+        "vocabulary_size": 9791,
+        "total_tokens": 92641,
+        "hapax_legomena": 4758,
+        "hapax_ratio": 0.486,
+        "yules_k": 112.2025,
+        "sentence_stats": {
+          "count": 3939,
+          "mean_length": 27.27,
+          "median_length": 22.0,
+          "std_length": 20.45,
+          "min_length": 1,
+          "max_length": 228
+        },
+        "word_stats": {
+          "mean_length": 4.58,
+          "median_length": 4.0
+        }
+      },
+      "topic_distribution": [
+        0.0,
+        0.0,
+        0.9999,
+        0.0
+      ]
+    },
+    {
+      "filename": "NewAtlantis.txt",
+      "metadata": {
+        "title": "New Atlantis",
+        "author": "Francis Bacon",
+        "year": 1627
+      },
+      "word_frequencies": [
+        {
+          "word": "also",
+          "count": 82
+        },
+        {
+          "word": "one",
+          "count": 46
+        },
+        {
+          "word": "great",
+          "count": 45
+        },
+        {
+          "word": "upon",
+          "count": 42
+        },
+        {
+          "word": "said",
+          "count": 40
+        },
+        {
+          "word": "many",
+          "count": 39
+        },
+        {
+          "word": "make",
+          "count": 38
+        },
+        {
+          "word": "land",
+          "count": 37
+        },
+        {
+          "word": "men",
+          "count": 36
+        },
+        {
+          "word": "divers",
+          "count": 34
+        },
+        {
+          "word": "made",
+          "count": 32
+        },
+        {
+          "word": "man",
+          "count": 30
+        },
+        {
+          "word": "yet",
+          "count": 30
+        },
+        {
+          "word": "came",
+          "count": 30
+        },
+        {
+          "word": "little",
+          "count": 28
+        },
+        {
+          "word": "time",
+          "count": 28
+        },
+        {
+          "word": "well",
+          "count": 28
+        },
+        {
+          "word": "things",
+          "count": 28
+        },
+        {
+          "word": "good",
+          "count": 26
+        },
+        {
+          "word": "would",
+          "count": 26
+        },
+        {
+          "word": "give",
+          "count": 26
+        },
+        {
+          "word": "house",
+          "count": 25
+        },
+        {
+          "word": "people",
+          "count": 25
+        },
+        {
+          "word": "shall",
+          "count": 25
+        },
+        {
+          "word": "call",
+          "count": 25
+        },
+        {
+          "word": "day",
+          "count": 24
+        },
+        {
+          "word": "come",
+          "count": 24
+        },
+        {
+          "word": "three",
+          "count": 23
+        },
+        {
+          "word": "use",
+          "count": 23
+        },
+        {
+          "word": "likewise",
+          "count": 23
+        },
+        {
+          "word": "without",
+          "count": 22
+        },
+        {
+          "word": "god",
+          "count": 22
+        },
+        {
+          "word": "might",
+          "count": 22
+        },
+        {
+          "word": "like",
+          "count": 22
+        },
+        {
+          "word": "much",
+          "count": 21
+        },
+        {
+          "word": "know",
+          "count": 20
+        },
+        {
+          "word": "strangers",
+          "count": 20
+        },
+        {
+          "word": "state",
+          "count": 20
+        },
+        {
+          "word": "number",
+          "count": 19
+        },
+        {
+          "word": "world",
+          "count": 19
+        },
+        {
+          "word": "think",
+          "count": 19
+        },
+        {
+          "word": "new",
+          "count": 18
+        },
+        {
+          "word": "set",
+          "count": 18
+        },
+        {
+          "word": "though",
+          "count": 17
+        },
+        {
+          "word": "forth",
+          "count": 17
+        },
+        {
+          "word": "may",
+          "count": 17
+        },
+        {
+          "word": "two",
+          "count": 17
+        },
+        {
+          "word": "parts",
+          "count": 17
+        },
+        {
+          "word": "years",
+          "count": 17
+        },
+        {
+          "word": "far",
+          "count": 17
+        }
+      ],
+      "sentiment": {
+        "compound": 0.2832,
+        "positive": 0.1057,
+        "negative": 0.0339,
+        "neutral": 0.8604,
+        "sentence_count": 477,
+        "distribution": {
+          "positive": 281,
+          "negative": 70,
+          "neutral": 126
+        }
+      },
+      "style_metrics": {
+        "type_token_ratio": 0.1715,
+        "vocabulary_size": 2686,
+        "total_tokens": 15658,
+        "hapax_legomena": 1479,
+        "hapax_ratio": 0.5506,
+        "yules_k": 120.8128,
+        "sentence_stats": {
+          "count": 477,
+          "mean_length": 38.68,
+          "median_length": 33.0,
+          "std_length": 26.73,
+          "min_length": 4,
+          "max_length": 218
+        },
+        "word_stats": {
+          "mean_length": 4.28,
+          "median_length": 4.0
+        }
+      },
+      "topic_distribution": [
+        0.9989,
+        0.0004,
+        0.0004,
+        0.0004
+      ]
+    },
+    {
+      "filename": "NewsfromNowhere.txt",
+      "metadata": {
+        "title": "News from Nowhere",
+        "author": "William Morris",
+        "year": 1890
+      },
+      "word_frequencies": [
+        {
+          "word": "said",
+          "count": 784
+        },
+        {
+          "word": "old",
+          "count": 275
+        },
+        {
+          "word": "people",
+          "count": 262
+        },
+        {
+          "word": "would",
+          "count": 234
+        },
+        {
+          "word": "well",
+          "count": 234
+        },
+        {
+          "word": "one",
+          "count": 217
+        },
+        {
+          "word": "see",
+          "count": 217
+        },
+        {
+          "word": "dick",
+          "count": 214
+        },
+        {
+          "word": "little",
+          "count": 211
+        },
+        {
+          "word": "like",
+          "count": 202
+        },
+        {
+          "word": "could",
+          "count": 195
+        },
+        {
+          "word": "man",
+          "count": 186
+        },
+        {
+          "word": "time",
+          "count": 173
+        },
+        {
+          "word": "know",
+          "count": 166
+        },
+        {
+          "word": "much",
+          "count": 163
+        },
+        {
+          "word": "men",
+          "count": 155
+        },
+        {
+          "word": "think",
+          "count": 147
+        },
+        {
+          "word": "work",
+          "count": 147
+        },
+        {
+          "word": "though",
+          "count": 138
+        },
+        {
+          "word": "must",
+          "count": 133
+        },
+        {
+          "word": "say",
+          "count": 133
+        },
+        {
+          "word": "came",
+          "count": 129
+        },
+        {
+          "word": "good",
+          "count": 125
+        },
+        {
+          "word": "come",
+          "count": 125
+        },
+        {
+          "word": "great",
+          "count": 117
+        },
+        {
+          "word": "way",
+          "count": 113
+        },
+        {
+          "word": "life",
+          "count": 113
+        },
+        {
+          "word": "many",
+          "count": 111
+        },
+        {
+          "word": "went",
+          "count": 104
+        },
+        {
+          "word": "country",
+          "count": 104
+        },
+        {
+          "word": "yes",
+          "count": 104
+        },
+        {
+          "word": "rather",
+          "count": 103
+        },
+        {
+          "word": "beautiful",
+          "count": 97
+        },
+        {
+          "word": "looked",
+          "count": 97
+        },
+        {
+          "word": "seemed",
+          "count": 96
+        },
+        {
+          "word": "indeed",
+          "count": 95
+        },
+        {
+          "word": "thought",
+          "count": 94
+        },
+        {
+          "word": "place",
+          "count": 92
+        },
+        {
+          "word": "last",
+          "count": 89
+        },
+        {
+          "word": "used",
+          "count": 88
+        },
+        {
+          "word": "look",
+          "count": 87
+        },
+        {
+          "word": "pretty",
+          "count": 87
+        },
+        {
+          "word": "house",
+          "count": 86
+        },
+        {
+          "word": "day",
+          "count": 85
+        },
+        {
+          "word": "made",
+          "count": 85
+        },
+        {
+          "word": "may",
+          "count": 85
+        },
+        {
+          "word": "got",
+          "count": 84
+        },
+        {
+          "word": "course",
+          "count": 84
+        },
+        {
+          "word": "make",
+          "count": 83
+        },
+        {
+          "word": "things",
+          "count": 83
+        }
+      ],
+      "sentiment": {
+        "compound": 0.1788,
+        "positive": 0.1233,
+        "negative": 0.0666,
+        "neutral": 0.81,
+        "sentence_count": 2711,
+        "distribution": {
+          "positive": 1392,
+          "negative": 656,
+          "neutral": 663
+        }
+      },
+      "style_metrics": {
+        "type_token_ratio": 0.0803,
+        "vocabulary_size": 6190,
+        "total_tokens": 77133,
+        "hapax_legomena": 2983,
+        "hapax_ratio": 0.4819,
+        "yules_k": 101.8902,
+        "sentence_stats": {
+          "count": 2711,
+          "mean_length": 34.03,
+          "median_length": 28.0,
+          "std_length": 25.93,
+          "min_length": 2,
+          "max_length": 198
+        },
+        "word_stats": {
+          "mean_length": 4.13,
+          "median_length": 4.0
+        }
+      },
+      "topic_distribution": [
+        0.0,
+        0.9999,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "filename": "OvertheRange.txt",
+      "metadata": {
+        "title": "Over the Range",
+        "author": "Unknown",
+        "year": 1900
+      },
+      "word_frequencies": [
+        {
+          "word": "would",
+          "count": 401
+        },
+        {
+          "word": "one",
+          "count": 374
+        },
+        {
+          "word": "could",
+          "count": 302
+        },
+        {
+          "word": "upon",
+          "count": 258
+        },
+        {
+          "word": "man",
+          "count": 206
+        },
+        {
+          "word": "much",
+          "count": 178
+        },
+        {
+          "word": "even",
+          "count": 169
+        },
+        {
+          "word": "though",
+          "count": 165
+        },
+        {
+          "word": "time",
+          "count": 157
+        },
+        {
+          "word": "made",
+          "count": 149
+        },
+        {
+          "word": "may",
+          "count": 141
+        },
+        {
+          "word": "say",
+          "count": 141
+        },
+        {
+          "word": "must",
+          "count": 141
+        },
+        {
+          "word": "people",
+          "count": 141
+        },
+        {
+          "word": "see",
+          "count": 119
+        },
+        {
+          "word": "great",
+          "count": 116
+        },
+        {
+          "word": "never",
+          "count": 114
+        },
+        {
+          "word": "many",
+          "count": 109
+        },
+        {
+          "word": "might",
+          "count": 109
+        },
+        {
+          "word": "said",
+          "count": 108
+        },
+        {
+          "word": "little",
+          "count": 104
+        },
+        {
+          "word": "two",
+          "count": 103
+        },
+        {
+          "word": "good",
+          "count": 103
+        },
+        {
+          "word": "country",
+          "count": 98
+        },
+        {
+          "word": "yet",
+          "count": 92
+        },
+        {
+          "word": "life",
+          "count": 91
+        },
+        {
+          "word": "make",
+          "count": 90
+        },
+        {
+          "word": "found",
+          "count": 89
+        },
+        {
+          "word": "years",
+          "count": 87
+        },
+        {
+          "word": "machines",
+          "count": 86
+        },
+        {
+          "word": "things",
+          "count": 86
+        },
+        {
+          "word": "another",
+          "count": 85
+        },
+        {
+          "word": "think",
+          "count": 84
+        },
+        {
+          "word": "long",
+          "count": 84
+        },
+        {
+          "word": "like",
+          "count": 84
+        },
+        {
+          "word": "came",
+          "count": 82
+        },
+        {
+          "word": "men",
+          "count": 80
+        },
+        {
+          "word": "thought",
+          "count": 80
+        },
+        {
+          "word": "every",
+          "count": 80
+        },
+        {
+          "word": "part",
+          "count": 78
+        },
+        {
+          "word": "less",
+          "count": 77
+        },
+        {
+          "word": "well",
+          "count": 75
+        },
+        {
+          "word": "also",
+          "count": 75
+        },
+        {
+          "word": "without",
+          "count": 74
+        },
+        {
+          "word": "quite",
+          "count": 72
+        },
+        {
+          "word": "way",
+          "count": 72
+        },
+        {
+          "word": "saw",
+          "count": 71
+        },
+        {
+          "word": "come",
+          "count": 70
+        },
+        {
+          "word": "nothing",
+          "count": 69
+        },
+        {
+          "word": "felt",
+          "count": 69
+        }
+      ],
+      "sentiment": {
+        "compound": 0.0753,
+        "positive": 0.0871,
+        "negative": 0.067,
+        "neutral": 0.8458,
+        "sentence_count": 2465,
+        "distribution": {
+          "positive": 1079,
+          "negative": 782,
+          "neutral": 604
+        }
+      },
+      "style_metrics": {
+        "type_token_ratio": 0.0902,
+        "vocabulary_size": 7538,
+        "total_tokens": 83605,
+        "hapax_legomena": 3488,
+        "hapax_ratio": 0.4627,
+        "yules_k": 99.0022,
+        "sentence_stats": {
+          "count": 2465,
+          "mean_length": 38.14,
+          "median_length": 32.0,
+          "std_length": 26.49,
+          "min_length": 1,
+          "max_length": 224
+        },
+        "word_stats": {
+          "mean_length": 4.31,
+          "median_length": 4.0
+        }
+      },
+      "topic_distribution": [
+        0.4238,
+        0.2158,
+        0.36,
+        0.0004
+      ]
+    },
+    {
+      "filename": "Utopia.txt",
+      "metadata": {
+        "title": "Utopia",
+        "author": "Thomas More",
+        "year": 1516
+      },
+      "word_frequencies": [
+        {
+          "word": "one",
+          "count": 158
+        },
+        {
+          "word": "man",
+          "count": 155
+        },
+        {
+          "word": "much",
+          "count": 147
+        },
+        {
+          "word": "would",
+          "count": 141
+        },
+        {
+          "word": "men",
+          "count": 140
+        },
+        {
+          "word": "among",
+          "count": 140
+        },
+        {
+          "word": "may",
+          "count": 139
+        },
+        {
+          "word": "great",
+          "count": 135
+        },
+        {
+          "word": "yet",
+          "count": 99
+        },
+        {
+          "word": "many",
+          "count": 97
+        },
+        {
+          "word": "upon",
+          "count": 96
+        },
+        {
+          "word": "people",
+          "count": 95
+        },
+        {
+          "word": "good",
+          "count": 91
+        },
+        {
+          "word": "things",
+          "count": 89
+        },
+        {
+          "word": "either",
+          "count": 88
+        },
+        {
+          "word": "made",
+          "count": 87
+        },
+        {
+          "word": "think",
+          "count": 84
+        },
+        {
+          "word": "every",
+          "count": 80
+        },
+        {
+          "word": "pleasure",
+          "count": 77
+        },
+        {
+          "word": "though",
+          "count": 75
+        },
+        {
+          "word": "make",
+          "count": 72
+        },
+        {
+          "word": "since",
+          "count": 65
+        },
+        {
+          "word": "life",
+          "count": 64
+        },
+        {
+          "word": "said",
+          "count": 62
+        },
+        {
+          "word": "well",
+          "count": 62
+        },
+        {
+          "word": "another",
+          "count": 62
+        },
+        {
+          "word": "might",
+          "count": 60
+        },
+        {
+          "word": "could",
+          "count": 59
+        },
+        {
+          "word": "country",
+          "count": 57
+        },
+        {
+          "word": "others",
+          "count": 57
+        },
+        {
+          "word": "public",
+          "count": 56
+        },
+        {
+          "word": "use",
+          "count": 54
+        },
+        {
+          "word": "never",
+          "count": 51
+        },
+        {
+          "word": "nature",
+          "count": 50
+        },
+        {
+          "word": "without",
+          "count": 50
+        },
+        {
+          "word": "laws",
+          "count": 49
+        },
+        {
+          "word": "must",
+          "count": 47
+        },
+        {
+          "word": "give",
+          "count": 46
+        },
+        {
+          "word": "even",
+          "count": 46
+        },
+        {
+          "word": "find",
+          "count": 46
+        },
+        {
+          "word": "whole",
+          "count": 46
+        },
+        {
+          "word": "prince",
+          "count": 45
+        },
+        {
+          "word": "take",
+          "count": 45
+        },
+        {
+          "word": "labour",
+          "count": 44
+        },
+        {
+          "word": "see",
+          "count": 43
+        },
+        {
+          "word": "therefore",
+          "count": 42
+        },
+        {
+          "word": "little",
+          "count": 42
+        },
+        {
+          "word": "part",
+          "count": 42
+        },
+        {
+          "word": "war",
+          "count": 42
+        },
+        {
+          "word": "care",
+          "count": 42
+        }
+      ],
+      "sentiment": {
+        "compound": 0.2185,
+        "positive": 0.1185,
+        "negative": 0.0732,
+        "neutral": 0.8083,
+        "sentence_count": 711,
+        "distribution": {
+          "positive": 412,
+          "negative": 209,
+          "neutral": 90
+        }
+      },
+      "style_metrics": {
+        "type_token_ratio": 0.1035,
+        "vocabulary_size": 4499,
+        "total_tokens": 43466,
+        "hapax_legomena": 2117,
+        "hapax_ratio": 0.4705,
+        "yules_k": 100.9116,
+        "sentence_stats": {
+          "count": 711,
+          "mean_length": 69.32,
+          "median_length": 53.0,
+          "std_length": 54.87,
+          "min_length": 3,
+          "max_length": 424
+        },
+        "word_stats": {
+          "mean_length": 4.29,
+          "median_length": 4.0
+        }
+      },
+      "topic_distribution": [
+        0.9998,
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    }
+  ]
+}

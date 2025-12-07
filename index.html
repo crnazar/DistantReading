@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distant Reading: Utopian Novels Analysis</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-book"></i> Distant Reading
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#wordclouds">Word Clouds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sentiment">Sentiment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#style">Style Metrics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#topics">Topics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#compare">Compare</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid py-4">
+        <!-- Overview Section -->
+        <section id="overview" class="mb-5">
+            <h2 class="section-title"><i class="bi bi-grid-3x3-gap"></i> Corpus Overview</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card stat-card">
+                        <div class="card-body text-center">
+                            <h3 class="stat-number" id="totalTexts">-</h3>
+                            <p class="stat-label">Texts in Corpus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card stat-card">
+                        <div class="card-body text-center">
+                            <h3 class="stat-number" id="totalTokens">-</h3>
+                            <p class="stat-label">Total Tokens</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card stat-card">
+                        <div class="card-body text-center">
+                            <h3 class="stat-number" id="yearRange">-</h3>
+                            <p class="stat-label">Year Range</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5><i class="bi bi-list-ul"></i> Texts in the Corpus</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover" id="corpusTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Title</th>
+                                            <th>Author</th>
+                                            <th>Year</th>
+                                            <th>Tokens</th>
+                                            <th>Vocabulary</th>
+                                            <th>Sentiment</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Word Clouds Section -->
+        <section id="wordclouds" class="mb-5">
+            <h2 class="section-title"><i class="bi bi-cloud"></i> Word Clouds</h2>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="wordcloudSelect" class="form-label">Select Text:</label>
+                    <select class="form-select" id="wordcloudSelect"></select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="wordcloudContainer" class="visualization-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5><i class="bi bi-bar-chart"></i> Top 50 Words</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="wordFreqChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sentiment Analysis Section -->
+        <section id="sentiment" class="mb-5">
+            <h2 class="section-title"><i class="bi bi-emoji-smile"></i> Sentiment Analysis</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Compound Sentiment by Text</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="sentimentCompoundChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Sentiment Components</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="sentimentComponentsChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Sentiment Distribution by Sentences</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="sentimentDistributionChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Sentiment Over Time (by Publication Year)</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="sentimentTimelineChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Style Metrics Section -->
+        <section id="style" class="mb-5">
+            <h2 class="section-title"><i class="bi bi-rulers"></i> Style Metrics</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Type-Token Ratio</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="ttrChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Vocabulary Richness (Hapax Ratio)</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="hapaxChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Mean Sentence Length</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="sentenceLengthChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Mean Word Length</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="wordLengthChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Style Metrics Radar Chart</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <select class="form-select" id="radarSelect" multiple></select>
+                                </div>
+                            </div>
+                            <div id="radarChart" class="chart-container-large"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Topic Modeling Section -->
+        <section id="topics" class="mb-5">
+            <h2 class="section-title"><i class="bi bi-tags"></i> Topic Modeling</h2>
+            <div class="row" id="topicCards"></div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Document-Topic Distribution Heatmap</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="topicHeatmap" class="chart-container-large"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison View Section -->
+        <section id="compare" class="mb-5">
+            <h2 class="section-title"><i class="bi bi-layout-split"></i> Compare Texts</h2>
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <label for="compareSelect1" class="form-label">Text 1:</label>
+                    <select class="form-select" id="compareSelect1"></select>
+                </div>
+                <div class="col-md-6">
+                    <label for="compareSelect2" class="form-label">Text 2:</label>
+                    <select class="form-select" id="compareSelect2"></select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card compare-card" id="compareCard1">
+                        <div class="card-header">
+                            <h5 id="compareTitle1">Select a text</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="compare-stats" id="compareStats1"></div>
+                            <div class="compare-wordcloud" id="compareWordcloud1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card compare-card" id="compareCard2">
+                        <div class="card-header">
+                            <h5 id="compareTitle2">Select a text</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="compare-stats" id="compareStats2"></div>
+                            <div class="compare-wordcloud" id="compareWordcloud2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Metrics Comparison</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="compareMetricsChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-1">Distant Reading Analysis System</p>
+            <p class="small text-muted">Analyzing Utopian Novels from Project Gutenberg (1516-1915)</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- D3 Cloud -->
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.5/build/d3.layout.cloud.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/visualizations.js"></script>
+</body>
+</html>
